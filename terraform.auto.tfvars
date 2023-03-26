@@ -1,4 +1,4 @@
-region = "eu-west-1"
+region = "us-east-1"
 
 vpc_cidr = "172.16.0.0/16"
 
@@ -21,17 +21,17 @@ tags = {
 
 environment = "production"
 
-ami = "ami-0c9978668f8d55984"  
+# ami-0dcdc08bdfd42e90b
 
-ami-web = "ami-09f47240e69ce7e6b"
+ami-web = "ami-0133ec389c32baa37"
 
-ami-bastion = "ami-0563d0aea3145d5fe"
+ami-bastion = "ami-0eb084c6edc4fcc4c"
 
-ami-nginx = "ami-0ecab14e911c2283f"
+ami-nginx = "ami-0dcdc08bdfd42e90b"
 
-ami-sonar = "ami-07b8955043ec22ad3"
+ami-sonar = "ami-060a86fd33569ac9f"
 
-keypair = "iyke5"
+keypair = "iyke3"
 
 # Ensure to change this to your acccount number
 account_no = "536250727183"
