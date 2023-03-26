@@ -27,7 +27,7 @@ variable "enable_classiclink_dns_support" {
 }
 
 variable "preferred_number_of_private_subnets" {
-      default = 3
+      default = 4
       }
 variable "tags" {
   description = "A mapping of tags to assign to all resources."
