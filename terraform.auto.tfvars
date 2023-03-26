@@ -31,7 +31,7 @@ ami-nginx = "ami-0ecab14e911c2283f"
 
 ami-sonar = "ami-07b8955043ec22ad3"
 
-keypair = "iyke3"
+keypair = "iyke5"
 
 # Ensure to change this to your acccount number
 account_no = "536250727183"

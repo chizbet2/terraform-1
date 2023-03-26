@@ -57,10 +57,12 @@ variable "account_no" {
 variable "master-username" {
   type        = string
   description = "RDS admin username"
+  default = "david"
 }
 
 variable "master-password" {
   type        = string
   description = "RDS master password"
+  default = "devopspbl"
 }
 
