@@ -40,7 +40,7 @@ account_no = "536250727183"
 
 # db-password = "devopspbl"
 
-master-password = "devopspblproject"
+master-password = "devopspbl"
 
 master-username = "david"
 
