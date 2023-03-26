@@ -54,15 +54,15 @@ variable "account_no" {
   description = "the account number"
 }
 
-# variable "master-username" {
-#   type        = string
-#   description = "RDS admin username"
-#   value = "david"
-# }
+variable "master-username" {
+  type        = string
+  description = "RDS admin username"
+  # value = "david"
+}
 
-# variable "master-password" {
-#   type        = string
-#   description = "RDS master password"
-#   value = "devopspbl"
-# }
+variable "master-password" {
+  type        = string
+  description = "RDS master password"
+  # value = "devopspbl"
+}
 
