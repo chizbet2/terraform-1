@@ -36,7 +36,11 @@ keypair = "iyke5"
 # Ensure to change this to your acccount number
 account_no = "536250727183"
 
-db-username = "david"
+# db-username = "david"
 
-db-password = "devopspbl"
+# db-password = "devopspbl"
+
+master-password = "devopspblproject"
+
+master-username = "david"
 
