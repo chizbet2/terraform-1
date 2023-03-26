@@ -29,12 +29,22 @@
 #   }
 # }
 
+# terraform {
+#   backend "s3" {
+#     bucket         = "ozone-dev-terraform-1-bucket"
+#     key            = "global/s3/terraform.tfstate"
+#     region         = "us-east-1"
+#     dynamodb_table = "terraform-locks"
+#     encrypt        = true
+#   }
+# }
+
 terraform {
-  backend "s3" {
-    bucket         = "ozone-dev-terraform-1-bucket"
-    key            = "global/s3/terraform.tfstate"
-    region         = "us-east-1"
-    dynamodb_table = "terraform-locks"
-    encrypt        = true
+  backend "remote" {
+    organization = "ozone_iyke"
+
+    workspaces {
+      name = "terraform-1"
+    }
   }
 }

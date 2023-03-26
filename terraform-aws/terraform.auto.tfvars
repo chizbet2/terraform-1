@@ -23,6 +23,14 @@ environment = "production"
 
 ami = "ami-0c9978668f8d55984"  
 
+ami-web = "ami-09f47240e69ce7e6b"
+
+ami-bastion = "ami-0563d0aea3145d5fe"
+
+ami-nginx = "ami-0ecab14e911c2283f"
+
+ami-sonar = "ami-07b8955043ec22ad3"
+
 keypair = "iyke3"
 
 # Ensure to change this to your acccount number
